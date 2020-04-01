@@ -16,8 +16,9 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="DOMAIN" elementType="Argument">
             <stringProp name="Argument.name">DOMAIN</stringProp>
-            <stringProp name="Argument.value">epuakyiw1890t1.kyiv.epam.com</stringProp>
+            <stringProp name="Argument.value">192.168.0.102</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">192.168.0.102 epuakyiw1890t1.kyiv.epam.com</stringProp>
           </elementProp>
           <elementProp name="PORT" elementType="Argument">
             <stringProp name="Argument.name">PORT</stringProp>
@@ -41,7 +42,7 @@
           </elementProp>
           <elementProp name="NUMBEROFPOSTS" elementType="Argument">
             <stringProp name="Argument.name">NUMBEROFPOSTS</stringProp>
-            <stringProp name="Argument.value">500</stringProp>
+            <stringProp name="Argument.value">200</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="BLOG_VERSION" elementType="Argument">
@@ -252,14 +253,14 @@
                 <elementProp name="ctl00$MainContent$LoginUser$UserName" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">true</boolProp>
                   <stringProp name="Argument.name">ctl00$MainContent$LoginUser$UserName</stringProp>
-                  <stringProp name="Argument.value">Editor</stringProp>
+                  <stringProp name="Argument.value">MainEditor_02</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
                 <elementProp name="ctl00$MainContent$LoginUser$Password" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">true</boolProp>
                   <stringProp name="Argument.name">ctl00$MainContent$LoginUser$Password</stringProp>
-                  <stringProp name="Argument.value">Big33@bangs</stringProp>
+                  <stringProp name="Argument.value">root</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
@@ -650,7 +651,7 @@
                   <collectionProp name="Arguments.arguments">
                     <elementProp name="" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                      <stringProp name="Argument.value">{&quot;Id&quot;:&quot;&quot;,&quot;Title&quot;:&quot;Test${__RandomString(6,abcdefghijklmnopqrstuvwxyz,postname)}&quot;,&quot;Author&quot;:&quot;Editor&quot;,&quot;Content&quot;:&quot;&lt;p&gt;${__RandomString(${__Random(50,1000,)},abcdefghijkl mnopqrstuvwxyz,)}&lt;/p&gt;&quot;,&quot;DateCreated&quot;:&quot;${DATES}&quot;,&quot;Slug&quot;:&quot;Test${postname}&quot;,&quot;Categories&quot;:[],&quot;Tags&quot;:[],&quot;Comments&quot;:&quot;&quot;,&quot;HasCommentsEnabled&quot;:true,&quot;IsPublished&quot;:true}</stringProp>
+                      <stringProp name="Argument.value">{&quot;Id&quot;:&quot;&quot;,&quot;Title&quot;:&quot;Test${__RandomString(6,abcdefghijklmnopqrstuvwxyz,postname)}&quot;,&quot;Author&quot;:&quot;MainEditor_02&quot;,&quot;Content&quot;:&quot;&lt;p&gt;${__RandomString(${__Random(50,1000,)},abcdefghijkl mnopqrstuvwxyz,)}&lt;/p&gt;&quot;,&quot;DateCreated&quot;:&quot;${DATES}&quot;,&quot;Slug&quot;:&quot;Test${postname}&quot;,&quot;Categories&quot;:[],&quot;Tags&quot;:[],&quot;Comments&quot;:&quot;&quot;,&quot;HasCommentsEnabled&quot;:true,&quot;IsPublished&quot;:true}</stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                     </elementProp>
                   </collectionProp>
@@ -721,7 +722,7 @@
                   <collectionProp name="Arguments.arguments">
                     <elementProp name="" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                      <stringProp name="Argument.value">{&quot;Id&quot;:&quot;&quot;,&quot;Title&quot;:&quot;Test${__RandomString(6,abcdefghijklmnopqrstuvwxyz,postname)}&quot;,&quot;Author&quot;:&quot;Editor&quot;,&quot;Content&quot;:&quot;&lt;p&gt;${__RandomString(${__Random(50,1000,)},abcdefghijkl mnopqrstuvwxyz,)}&lt;/p&gt;&quot;,&quot;DateCreated&quot;:&quot;${__RandomDate(,2019-01-01,2020-03-01,,)} 12:20&quot;,&quot;Slug&quot;:&quot;Test${postname}&quot;,&quot;Categories&quot;:[],&quot;Tags&quot;:[],&quot;Comments&quot;:&quot;&quot;,&quot;HasCommentsEnabled&quot;:true,&quot;IsPublished&quot;:true}</stringProp>
+                      <stringProp name="Argument.value">{&quot;Id&quot;:&quot;&quot;,&quot;Title&quot;:&quot;Test${__RandomString(6,abcdefghijklmnopqrstuvwxyz,postname)}&quot;,&quot;Author&quot;:&quot;MainEditor_02&quot;,&quot;Content&quot;:&quot;&lt;p&gt;${__RandomString(${__Random(50,1000,)},abcdefghijkl mnopqrstuvwxyz,)}&lt;/p&gt;&quot;,&quot;DateCreated&quot;:&quot;${__RandomDate(,2019-01-01,2020-03-01,,)} 12:20&quot;,&quot;Slug&quot;:&quot;Test${postname}&quot;,&quot;Categories&quot;:[],&quot;Tags&quot;:[],&quot;Comments&quot;:&quot;&quot;,&quot;HasCommentsEnabled&quot;:true,&quot;IsPublished&quot;:true}</stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                     </elementProp>
                   </collectionProp>
@@ -884,7 +885,7 @@
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+      <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="false">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -958,7 +959,7 @@
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener" enabled="true">
+      <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener" enabled="false">
         <elementProp name="arguments" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" enabled="true">
           <collectionProp name="Arguments.arguments">
             <elementProp name="influxdbMetricsSender" elementType="Argument">
